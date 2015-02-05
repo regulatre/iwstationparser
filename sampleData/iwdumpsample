@@ -1,0 +1,34 @@
+Station b7:e7:26:55:e5:d2 (on wlan0)
+	inactive time:	10 ms
+	rx bytes:	701001
+	rx packets:	6170
+	tx bytes:	1969970
+	tx packets:	4316
+	tx retries:	831
+	tx failed:	40
+	signal:  	-57 dBm
+	signal avg:	-57 dBm
+	tx bitrate:	48.0 MBit/s
+	authorized:	yes
+	authenticated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:		no
+Station cb:3b:2b:bb:5b:3b (on wlan0)
+	inactive time:	3570 ms
+	rx bytes:	1110856
+	rx packets:	6799
+	tx bytes:	396421
+	tx packets:	1947
+	tx retries:	775
+	tx failed:	92
+	signal:  	-59 dBm
+	signal avg:	-60 dBm
+	tx bitrate:	48.0 MBit/s
+	authorized:	yes
+	authenticated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:		no

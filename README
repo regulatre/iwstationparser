@@ -1,0 +1,18 @@
+
+
+This script scrapes the output of the iw station dump command and spits out stats for each station, one line per station. 
+
+The format of each line is k=v k=v k=v k=v etc. If you pipe it to syslog then you also get date/time stamps - which is perfect for ingestion into Splunk or similar indexing utilities.
+
+
+Inatallation: 
+1. Clone this repo into /root/git/iwparser or whatever
+2. Create a new file in /etc/cron.d and copy the line below into that file. save it. adjust path if needed. 
+3. Use Splunk to index the syslog/messages. Either forward syslog to splunk or point splunk at the syslog file. Its up to you. 
+
+
+sample /etc/cron.d file contents: 
+
+*/5 * * * *	root	/root/git/iwparser/parseiw.pl | xargs -L 1 logger iwstats
+
+
